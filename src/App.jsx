@@ -9,12 +9,13 @@ export default function App() {
       <label htmlFor="task">New Task</label>
       <br />
       <input type="text" id="task" />
+      <br />
       <button className="btn">Add</button>
     </div>
-    
-
+    <div className="todo-list">
+    <h1 className="header">Todo List</h1>
+    </div>
   </form>
-  <h1 className="header">Todo List</h1>
   </>
   )
 }
